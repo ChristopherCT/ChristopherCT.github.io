@@ -1,0 +1,72 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 13px;
+}
+
+.box {
+  border-style: solid;
+  border-width: thin;
+  border-color: #49494a;
+  background-color: #bababa;
+  position: relative;
+  text-align: center;
+}
+
+.textbox {
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+
+.name {
+  color: #444444;
+  position: relative;
+  top: 10px;
+}
+
+
+.rating {
+  height: 60px;
+  width: 60px;
+}
+
+.rating-text {
+  position: relative;
+  top: 10px;
+}
+
+@media (max-width: 992px) {
+  #CEO {
+    height: 250px;
+  }
+  #CEOpic {
+     position: relative;
+     top: 10px;
+  }
+
+}
+
+@media (min-width: 992px) {
+  .rating {
+    height: 35px;
+    width: 35px;
+  }
+
+  .rating-box {
+     position: absolute;
+     bottom: 10px;
+  }
+}
